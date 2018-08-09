@@ -69,7 +69,7 @@ make install
 5:Start up & test
 ``ovs-ctl start``
 
-## Ryu controller
+### Ryu controller
 1:setup pre-request
 `` sudo apt-get install python-pip python-dev build-essential``
 
@@ -77,10 +77,10 @@ make install
 ``sudo apt-get install python-eventlet python-routes python-webob python-paramiko``
 
 3:install ryu
------------------------------------------------------------------------
+
 p.s if system warn about ``locale.Error: unsupported locale setting``
     Solution: ``locale``-->``export LC_ALL=C``
------------------------------------------------------------------------
+
 ``pip install ryu``
 
 # OK
